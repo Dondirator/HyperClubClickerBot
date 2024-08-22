@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { HeadingPrimaryComponent } from './components/heading-primary/heading-primary.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { LogoComponent } from './components/logo/logo.component';
     HomeComponent,
     FooterComponent,
     LogoComponent,
+    HeadingPrimaryComponent,
   ],
   imports: [
     BrowserModule,
