@@ -7,9 +7,9 @@
     z-index: 2;
 
     &__list{
-        padding: 16px 0px;
+        padding: 16px 16px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         gap: 18px;
     }
     &__link{
