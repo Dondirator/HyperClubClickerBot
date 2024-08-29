@@ -56,5 +56,43 @@
         padding: 8px 24px 8px 24px;
 
 
+
+    }
+    .rules{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 16px;
+        justify-content: center;
+    
+        &__item:nth-child(1){
+            margin: 0px 24px 16px 0px;
+            
+        }
+        &__item:nth-child(3){
+            margin: 0px 24px 16px 0px;
+        }
+        &__item{
+            position: relative;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            text-align: center;
+
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                position: absolute;
+                top: 8px;
+                right: 8px;
+            }
+        }
+        &__item-body{
+            padding: 16px 0px;
+            .value{
+                padding-bottom: 4px;
+            }
+        }
     }
 }
