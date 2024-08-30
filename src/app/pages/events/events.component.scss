@@ -33,6 +33,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 8px;
+        border-radius: 8px;
 
         p{
             font-size: 11px;
@@ -45,7 +46,6 @@
     }
 
     &__btn{
-        background: linear-gradient(90deg, #D8B35D 0%, #F5E7BF 100%);
         padding: 4px 8px;
         gap: 10px;
         border-radius: 4px;
@@ -54,6 +54,14 @@
         font-weight: 600;
         font-size: 9px;
         width: 48px;
-        color: black;
+    
     }
+}
+.active{
+    background: linear-gradient(90deg, #D8B35D 0%, #F5E7BF 100%);
+    color: black;
+}
+.inactive{
+    background-color: #5E5E5E;
+    color:  #D7D7D7;
 }

@@ -13,15 +13,15 @@
             <div class="events__crypto">
                 <div class="events__crypto-body">
                     <p class="heading-secondary">USDT</p>
-                    <button class="events__btn">{{event.usdt ? 'Access' : 'Soon'}}</button>
+                    <button [ngClass]="event.usdt ? 'active' : 'inactive'" class="events__btn">{{event.usdt ? 'Access' : 'Soon'}}</button>
                 </div>
                 <div class="events__crypto-body">
                     <p class="heading-secondary">USDC</p>
-                    <button class="events__btn">{{event.usdc ? 'Access' : 'Soon'}}</button>
+                    <button [ngClass]="event.usdc ? 'active' : 'inactive'" class="events__btn">{{event.usdc ? 'Access' : 'Soon'}}</button>
                 </div>
                 <div class="events__crypto-body">
                     <p class="heading-secondary">DAI</p>
-                    <button class="events__btn">{{event.dai ? 'Access' : 'Soon'}}</button>
+                    <button [ngClass]="event.dai ? 'active' : 'inactive'" class="events__btn">{{event.dai ? 'Access' : 'Soon'}}</button>
                 </div>
             </div>
         </div>
