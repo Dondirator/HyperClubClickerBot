@@ -9,6 +9,7 @@ import { LogoComponent } from './components/logo/logo.component';
 import { HeadingPrimaryComponent } from './components/heading-primary/heading-primary.component';
 import { EventsComponent } from './pages/events/events.component';
 import { EventItemComponent } from './components/event-item/event-item.component';
+import { BlurredCircleComponent } from './components/blurred-circle/blurred-circle.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { EventItemComponent } from './components/event-item/event-item.component
     HeadingPrimaryComponent,
     EventsComponent,
     EventItemComponent,
+    BlurredCircleComponent,
   ],
   imports: [
     BrowserModule,
