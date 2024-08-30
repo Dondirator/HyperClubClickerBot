@@ -1,0 +1,44 @@
+.events{
+    &__body{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 16px;
+        column-gap: 8px;
+    }
+    &__item{
+        width: 48%;
+        background-color: #222222;
+        border-radius: 8px;
+        padding: 8px;
+    }
+    &__primary{
+        display: flex;
+        align-items: center;
+        p{
+            padding-top: 10px;
+            font-size: 16px ;
+        }
+    }
+    &__crypto-body{
+        background-color: #1A1A1A;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px;
+
+        p{
+            font-size: 11px;
+        }
+    }
+    &__btn{
+        background: linear-gradient(90deg, #D8B35D 0%, #F5E7BF 100%);
+        padding: 4px 0px 0px 0px;
+        gap: 10px;
+        border-radius: 4px;
+        opacity: 0px;
+        border: none;
+        font-weight: 600;
+        font-size: 9px;
+        width: 48px;
+    }
+}

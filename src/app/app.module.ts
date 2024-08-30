@@ -7,6 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { HeadingPrimaryComponent } from './components/heading-primary/heading-primary.component';
+import { EventsComponent } from './pages/events/events.component';
+import { EventItemComponent } from './components/event-item/event-item.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { HeadingPrimaryComponent } from './components/heading-primary/heading-pr
     FooterComponent,
     LogoComponent,
     HeadingPrimaryComponent,
+    EventsComponent,
+    EventItemComponent,
   ],
   imports: [
     BrowserModule,

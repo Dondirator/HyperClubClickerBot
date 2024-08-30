@@ -1,0 +1,29 @@
+<div class="events">
+    <app-logo routerLink=""></app-logo>
+    <app-heading-primary>
+        <div heading>Events</div>
+    </app-heading-primary>
+
+    <div class="events__body">
+        <div *ngFor="let event of events" class="events__item">
+            <div class="events__primary" >
+                <img [src]="event.imgPath" alt="">
+                <p class="heading-secondary">{{event.name}}</p>
+            </div>
+            <div class="events__crypto">
+                <div class="events__crypto-body">
+                    <p class="heading-secondary">USDT</p>
+                    <button class="events__btn">{{event.usdt ? 'Access' : 'Soon'}}</button>
+                </div>
+                <div class="events__crypto-body">
+                    <p class="heading-secondary">USDC</p>
+                    <button class="events__btn">{{event.usdc ? 'Access' : 'Soon'}}</button>
+                </div>
+                <div class="events__crypto-body">
+                    <p class="heading-secondary">DAI</p>
+                    <button class="events__btn">{{event.dai ? 'Access' : 'Soon'}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
