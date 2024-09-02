@@ -13,3 +13,18 @@
         padding: 10px 0px;
     }   
 }
+.guide-rules{
+    padding: 24px 16px 0 16px;
+    display: flex;
+    justify-content: space-between;
+
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        p{
+            padding: 0;
+            line-height: 24px;
+        }
+    }
+}   
