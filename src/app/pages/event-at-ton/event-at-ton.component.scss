@@ -24,6 +24,7 @@
 
     }   
     &__input{
+        padding: 16px 0px;
         position: relative;
         display: flex;
         align-items: center;
@@ -47,10 +48,12 @@
             line-height: 16px;
             color: #9F9F9F;
             margin-right: 8px;
+            width: 65%;
 
         }
     }
     &__input-btn{
+        width: 35%;
         border: 1px solid #D8B35D;
 
         padding: 8px 24px 8px 24px;
