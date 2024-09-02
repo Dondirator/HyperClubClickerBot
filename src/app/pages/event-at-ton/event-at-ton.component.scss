@@ -1,0 +1,65 @@
+.event-ton{
+    &__body{
+        background-color: #222222;
+        border-radius: 16px;
+        padding: 16px;
+        margin: 16px;
+    }
+}
+.item{
+    &__heading{
+        height: 32px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        color: #131313;
+
+        background: linear-gradient(90deg, #D8B35D 0%, #F5E7BF 100%);
+
+    }   
+    &__input{
+        position: relative;
+        display: flex;
+        align-items: center;
+        img{
+            position: absolute;
+            width: 16px;
+            margin-left: 8px;
+        }
+        input{
+            border-radius: 8px;
+            padding: 8px;
+            gap: 4px;
+            background-color: #1a1a1a;
+
+            border: none; /* Убирает стандартную рамку */
+            outline: none; /* Убирает контур при фокусировке */ 
+            padding-left: 28px;
+
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 16px;
+            color: #9F9F9F;
+            margin-right: 8px;
+
+        }
+    }
+    &__input-btn{
+        border: 1px solid #D8B35D;
+
+        padding: 8px 24px 8px 24px;
+        gap: 8px;
+        border-radius: 8px;
+        background-color: inherit;
+
+        color:  #D8B35D ;
+        
+
+    }
+}

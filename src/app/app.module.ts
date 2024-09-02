@@ -10,6 +10,7 @@ import { HeadingPrimaryComponent } from './components/heading-primary/heading-pr
 import { EventsComponent } from './pages/events/events.component';
 import { EventItemComponent } from './components/event-item/event-item.component';
 import { BlurredCircleComponent } from './components/blurred-circle/blurred-circle.component';
+import { EventAtTonComponent } from './pages/event-at-ton/event-at-ton.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { BlurredCircleComponent } from './components/blurred-circle/blurred-circ
     EventsComponent,
     EventItemComponent,
     BlurredCircleComponent,
+    EventAtTonComponent,
   ],
   imports: [
     BrowserModule,
