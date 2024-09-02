@@ -12,6 +12,7 @@ import { EventItemComponent } from './components/event-item/event-item.component
 import { BlurredCircleComponent } from './components/blurred-circle/blurred-circle.component';
 import { EventAtTonComponent } from './pages/event-at-ton/event-at-ton.component';
 import { TonEventItemComponent } from './components/ton-event-item/ton-event-item.component';
+import { GuideComponent } from './pages/guide/guide.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { TonEventItemComponent } from './components/ton-event-item/ton-event-ite
     BlurredCircleComponent,
     EventAtTonComponent,
     TonEventItemComponent,
+    GuideComponent,
   ],
   imports: [
     BrowserModule,
