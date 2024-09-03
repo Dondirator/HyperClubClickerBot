@@ -1,0 +1,26 @@
+.leaderboard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 16px;
+    gap: 16px 24px;
+    &__body{
+        background: #222222;
+        border-radius: 8px;
+        width: 47%;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        padding: 0px 8px 10px 8px;
+        p{
+         
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 16px;
+            text-align: left; 
+            color: #FFFFFF;
+            padding-top: 8px;
+
+        }
+    }
+}

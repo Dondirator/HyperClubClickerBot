@@ -1,0 +1,9 @@
+<app-heading-primary>
+    <div heading>Leaderboard</div>
+</app-heading-primary>
+<div class="leaderboard">
+    <div *ngFor="let event of events" class="leaderboard__body">
+        <img [src]="event.imgPath" alt="">
+        <p class="">{{event.name}}</p>
+    </div>
+</div>

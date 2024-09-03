@@ -7,12 +7,14 @@ import { EventAtTonComponent } from './pages/event-at-ton/event-at-ton.component
 import { GuideComponent } from './pages/guide/guide.component';
 import { WhitelistComponent } from './pages/whitelist/whitelist.component';
 import { AirdropComponent } from './pages/airdrop/airdrop.component';
+import { LeaderbordComponent } from './pages/leaderbord/leaderbord.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component: HomeComponent},
   {path: 'events', component: EventsComponent},
   {path: 'event-at-ton', component: EventAtTonComponent},
+  {path: 'leaderboard', component: LeaderbordComponent},
   {path: 'guide', component: GuideComponent},
   {path: 'whitelist', component: WhitelistComponent},
   {path: 'airdrop', component: AirdropComponent
