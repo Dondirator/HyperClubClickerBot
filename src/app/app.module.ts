@@ -17,6 +17,7 @@ import { WhitelistComponent } from './pages/whitelist/whitelist.component';
 import { EmailformComponent } from './components/emailform/emailform.component';
 import { AirdropComponent } from './pages/airdrop/airdrop.component';
 import { LeaderbordComponent } from './pages/leaderbord/leaderbord.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { LeaderbordComponent } from './pages/leaderbord/leaderbord.component';
     EmailformComponent,
     AirdropComponent,
     LeaderbordComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,

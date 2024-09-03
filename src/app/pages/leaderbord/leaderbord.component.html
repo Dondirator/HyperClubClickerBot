@@ -2,8 +2,12 @@
     <div heading>Leaderboard</div>
 </app-heading-primary>
 <div class="leaderboard">
-    <div *ngFor="let event of events" class="leaderboard__body">
+    <div *ngFor="let event of events" class="leaderboard__body" (click)="openModal(event)">
         <img [src]="event.imgPath" alt="">
         <p class="">{{event.name}}</p>
     </div>
+    <app-modal  *ngIf="selectedEvent" 
+    [event]="selectedEvent" 
+    (closeModal)="closeModal()">>
+    </app-modal>
 </div>

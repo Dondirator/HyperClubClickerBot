@@ -1,0 +1,32 @@
+<div class="modal-backdrop" (click)="close()"></div>
+
+    <div class="modal">
+        <div class="modal__body">
+            <div class="modal__item item">
+                <div class="item__heading">
+                    <div class="item__heading-body">
+                        <img [src]="event?.imgPath" alt="">
+                        <p>{{event?.name}}</p>
+                    </div>
+                    <img style="margin-top: 10px;" src="../../../assets/arrow-right.png" alt="">
+                    <div class="item__heading-body">
+                        <img [src]="event?.imgPath" alt="">
+                        <p>USDT</p>
+                    </div>
+                </div>
+                <div class="item__footer">
+                    <div class="item__footer-rank">
+                        <p>Your rank</p>
+                        <p>4,687</p>
+                    </div >
+                    <div class="item__foter-rank">
+                        <p>Points</p>
+                        <p>4,687</p>
+                    </div>
+                    <button class="item__footer-btns" [class.active]="event?.usdt" [class.inactive]="!event?.usdt">Copy</button>
+                </div>
+            </div>
+        </div>
+      <button [class.active]="event?.dai" [class.inactive]="!event?.dai">DAI</button>
+      <img style="position: absolute; top: 0; right: 0; padding: 8px;" src="../../../assets/chain.png" alt="" (click)="close()">
+    </div>
