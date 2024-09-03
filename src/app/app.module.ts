@@ -15,6 +15,7 @@ import { TonEventItemComponent } from './components/ton-event-item/ton-event-ite
 import { GuideComponent } from './pages/guide/guide.component';
 import { WhitelistComponent } from './pages/whitelist/whitelist.component';
 import { EmailformComponent } from './components/emailform/emailform.component';
+import { AirdropComponent } from './pages/airdrop/airdrop.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { EmailformComponent } from './components/emailform/emailform.component';
     GuideComponent,
     WhitelistComponent,
     EmailformComponent,
+    AirdropComponent,
   ],
   imports: [
     BrowserModule,

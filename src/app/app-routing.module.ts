@@ -6,6 +6,7 @@ import { EventsComponent } from './pages/events/events.component';
 import { EventAtTonComponent } from './pages/event-at-ton/event-at-ton.component';
 import { GuideComponent } from './pages/guide/guide.component';
 import { WhitelistComponent } from './pages/whitelist/whitelist.component';
+import { AirdropComponent } from './pages/airdrop/airdrop.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,6 +15,9 @@ const routes: Routes = [
   {path: 'event-at-ton', component: EventAtTonComponent},
   {path: 'guide', component: GuideComponent},
   {path: 'whitelist', component: WhitelistComponent},
+  {path: 'airdrop', component: AirdropComponent
+  },
+
 
 ];
 
