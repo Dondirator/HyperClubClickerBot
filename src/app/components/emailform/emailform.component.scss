@@ -1,11 +1,12 @@
 .mail-form{
-    background: radial-gradient(circle at top left, #FDCB29 -50%, transparent 18%), 
-              radial-gradient(circle at top right, #FDCB29 -50%, transparent 18%), 
-              radial-gradient(circle at bottom left, #FDCB29 -50%, transparent 18%), 
-              radial-gradient(circle at bottom right, #FDCB29 -50%, transparent 18%),
+    position: relative;
+    background: radial-gradient(circle at top left, #FDCB29 -50%, transparent 14%), 
+              radial-gradient(circle at top right, #FDCB29 -50%, transparent 14%), 
+              radial-gradient(circle at bottom left, #FDCB29 -50%, transparent 14%), 
+              radial-gradient(circle at bottom right, #FDCB29 -50%, transparent 14%),
               black;
     border-radius: 24px;
-    margin: 0 16px;
+    margin:  16px;
     &__body{
         padding: 24px;
         color: white;
@@ -52,3 +53,34 @@
         font-weight: 700;
     }
 }
+
+.background-coin{
+
+}
+.coin{
+    position: absolute;
+    width: 87px;
+    z-index: -1;
+}
+
+  
+.left {
+    left: -40px; 
+    transform: rotate(30deg);
+    width: 120px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    right: -30px; 
+  }
+  
+  
+  .coin:nth-child(1) {
+    top: -15%; 
+    opacity: 50%;
+  }
+  
+  .coin:nth-child(2) {
+    top: 70%;
+  }
