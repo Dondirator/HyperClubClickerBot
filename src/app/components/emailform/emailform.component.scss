@@ -1,3 +1,8 @@
+.container{
+    overflow: hidden;
+    padding: 32px 0px 40px 0;
+
+}
 .mail-form{
     position: relative;
     background: radial-gradient(circle at top left, #FDCB29 -50%, transparent 14%), 
@@ -54,6 +59,7 @@
     }
 }
 
+
 .background-coin{
 
 }
@@ -68,11 +74,13 @@
     left: -40px; 
     transform: rotate(30deg);
     width: 120px;
+    
   }
   
   .right {
     transform: rotate(-45deg);
-    right: -30px; 
+    right: 0;
+    margin-right: -40px;
   }
   
   
@@ -82,5 +90,5 @@
   }
   
   .coin:nth-child(2) {
-    top: 70%;
+    top: 68%;
   }
