@@ -13,6 +13,8 @@ import { BlurredCircleComponent } from './components/blurred-circle/blurred-circ
 import { EventAtTonComponent } from './pages/event-at-ton/event-at-ton.component';
 import { TonEventItemComponent } from './components/ton-event-item/ton-event-item.component';
 import { GuideComponent } from './pages/guide/guide.component';
+import { WhitelistComponent } from './pages/whitelist/whitelist.component';
+import { EmailformComponent } from './components/emailform/emailform.component';
 
 
 @NgModule({
@@ -28,6 +30,8 @@ import { GuideComponent } from './pages/guide/guide.component';
     EventAtTonComponent,
     TonEventItemComponent,
     GuideComponent,
+    WhitelistComponent,
+    EmailformComponent,
   ],
   imports: [
     BrowserModule,
